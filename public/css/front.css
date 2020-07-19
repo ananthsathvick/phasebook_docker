@@ -1,0 +1,269 @@
+body {
+    background-color: #e9ebee;
+}
+
+.bg-nav {
+    background-color: #4267b2;
+    height: 43px;
+    /*position: relative;*/
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 29px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.navfield {
+    padding: 0rem 0.75rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 0%;
+}
+
+.navlabel {
+    color: white;
+    margin: 0;
+    font-size: 12px;
+}
+
+.loginbtn {
+    background-color: #4267b2;
+    border-color: #29487d;
+    border-radius: 0%;
+    padding: 0.1rem 0.4rem;
+}
+
+.forget {
+    color: #9cb4d8;
+}
+
+.forget:hover {
+    text-decoration: underline;
+}
+
+.search {
+    background-color: #f5f6f7;
+    padding: 0px 3px;
+    height: 22px;
+}
+
+.search-inp {
+    width: 20em;
+    height: 22px;
+}
+
+.cr-pos-cb {
+    /* padding-top: 0; */
+    /* padding-bottom: 0;
+    padding-right: 0; */
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 500px;
+    overflow-x: hidden;
+}
+
+.pad-lef-0 {
+    padding-left: 0;
+}
+
+.cr-pos-ta {
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+
+.cr-pos-img {
+    border-radius: 2em !important;
+}
+
+.bg-com {
+    background-color: #e9ebee;
+}
+
+#news-feed {
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 2px;
+}
+
+.mx-w-14 {
+    max-width: 14%;
+}
+
+.ui-widget.ui-widget-content {
+    z-index: 2000;
+}
+
+
+/* Profile Page */
+
+#cover-pic-div {
+    height: 352px;
+    width: 849px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-pic {
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    height: 168px;
+    width: 168px;
+    border: 8px solid white;
+    object-fit: scale-down;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+#pro-name {
+    position: absolute;
+    bottom: 58px;
+    left: 197px;
+    color: white;
+}
+
+#edit_cv_btn {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    opacity: 80%;
+}
+
+#edit_pro_btn {
+    position: absolute;
+    bottom: 27px;
+    left: 144px;
+}
+
+.border-fb-col {
+    border-color: #e9eaed;
+    color: #385898;
+    font-weight: 600;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid>a>div {
+    padding: 10px;
+    /* background-color: #ccc; */
+    height: 101px;
+    width: 101px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/*friends */
+
+.image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0 auto; */
+    text-align: center;
+    /* max-width: 101px; */
+    padding: 0;
+}
+
+.image-list-small li {
+    display: inline-block;
+    width: 101px;
+    margin: 6px;
+}
+
+
+/* Photo */
+
+.image-list-small li>a {
+    display: block;
+    text-decoration: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 101px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+}
+
+.image-list-small .details {
+    margin-top: 13px;
+}
+
+
+/* Title */
+
+.image-list-small .details h3 {
+    display: block;
+    font-size: 12px;
+    margin: 0 0 3px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image-list-small .details h3 a {
+    color: #303030;
+    text-decoration: none;
+}
+
+.image-list-small .details .image-author {
+    display: block;
+    color: #717171;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+}
+
+​
+/* End Profile page */
